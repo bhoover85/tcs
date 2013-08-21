@@ -1,0 +1,439 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #3b1d15;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #3b1d15;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('/BebasNeue.eot') format('eot'),
+         url('/BebasNeue.otf') format('otf'),
+         url('/BebasNeue.ttf') format('truetype'),
+         url('/BebasNeue.svg') format('svg'),
+         url('/BebasNeue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:link {
+    color: #3b1d15;
+}
+
+a:active {
+    color: #3b1d15;
+}
+
+a:visited {
+    color: #3b1d15;
+}
+
+a:hover {
+    color: #3b1d15;
+}
+
+#container {
+    position: relative;
+    width: 900px;
+    min-height: 800px;
+    margin: 0 auto;
+    background-image: url(/img/bg.jpg);
+    background-position: 0 175px;
+    margin-bottom: 25px;
+}
+
+#inst_cont {
+    width: 780px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#content {
+    position: relative;
+    width: 834px;
+    min-height: 800px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+#header {
+    width: 900px;
+    height: 175px;
+    background-image: url(/img/header.jpg);
+    margin-bottom: 25px;
+}
+
+#header .hotspot {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#home_nav {
+    position: relative;
+    width: 66px;
+    height: 35px;
+    left: 510px;
+    top: 93px;
+    z-index: 1;
+}
+
+#photos_nav {
+    position: relative;
+    width: 83px;
+    height: 35px;
+    left: 627px;
+    top: 58px;
+    z-index: 1;
+}
+
+#retail_nav {
+    position: relative;
+    width: 71px;
+    height: 35px;
+    left: 751px;
+    top: 23px;
+    z-index: 1;
+}
+
+.logo {
+    position: relative;
+    left: 25px;
+}
+
+.vertical_divider {
+    position: relative;
+    left: 67px;
+    margin-bottom: 15px;
+}
+
+.tcs {
+    position: relative;
+    left: 115px;
+}
+
+.horizontal_divider {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#home_text {
+    margin: 25px auto;
+    width: 780px;
+    clear: both;
+}
+
+#x4dc {
+    position: absolute;
+    bottom: 0;
+    clear: both;
+    font-size: 18px;
+    font-family: 'BebasNeue';
+    padding: 5px 0;
+    padding-bottom: 18px;
+    margin-left: 27px;
+}
+
+#social_media_footer {
+    font-size: 18px;
+    font-family: 'BebasNeue';
+    float: right;
+    clear: both;
+    margin-right: 25px;
+}
+
+.social_media_icon {
+    margin: 0 2px;
+}
+
+#instagram {
+    width: 390px;
+    text-align: left;
+    float: left;
+    clear: none;
+}
+
+#contact_us {
+    width: 390px;
+    text-align: left;
+    float: right;
+    clear: none;
+}
+
+#contact_us p {
+    text-align: left;
+    line-height: 5px;
+}
+
+#instagram img {
+    border: 1px solid #3b1d15;
+    margin: 3px 0;
+}
+
+#instagram p {
+    text-align: left;
+    line-height: 5px;
+}
+
+#photos {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#photos img {
+    width: 150px;
+    height: 115px;
+    margin: 3px 3px;
+    border: 1px solid #3b1d15;
+}
+
+#retail {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 200px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.small {
+    font-size: 16px;
+}
+
+.margin_left {
+    margin-left: 5px;
+}
+
+.btn-primary {
+    font-size: 14px;
+    color: #FFF;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #999;
+ 
+    text-shadow: 0px 1px 1px #666;
+    text-decoration: none;
+ 
+    -moz-box-shadow: 0 1px 3px #111;
+    -webkit-box-shadow: 0 1px 3px #111;
+    box-shadow: 0 1px 3px #111;
+ 
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+ 
+    background: #64a724;
+    background: -moz-linear-gradient(top, #64a724 0%, #579727 50%, #58982a 51%, #498c25 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#64a724), to(#498c25), color-stop(0.4, #579727), color-stop(0.5, #58982a), color-stop(.9, #498c25), color-stop(0.9, #498c25));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64a724', endColorstr='#498c25', GradientType=0 );
+ 
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
