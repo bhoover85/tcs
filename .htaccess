@@ -213,7 +213,7 @@ AddDefaultCharset utf-8
     Options +FollowSymlinks
   # Options +SymLinksIfOwnerMatch
     RewriteEngine On
-    RewriteRule ^/?$ index.php?page=home [L]
+    RewriteRule ^/?$ index.php [L]
     RewriteRule ^photos/?$ index.php?page=photos [L]
     RewriteRule ^retail/?$ index.php?page=retail [L]
   # RewriteBase /

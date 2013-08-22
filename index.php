@@ -1,3 +1,20 @@
+<?php 
+	$page = $_GET['page'];
+	$title = "World Famous Thin Crust Square at Emma's Brick Oven Pizza";
+	switch($page){
+		case '':
+			$page_title = $title;
+		break;
+
+		case 'photos':
+			$page_title = ucwords($page) . " - " . $title;
+		break;
+
+		case 'retail':
+			$page_title = ucwords($page) . " - " . $title;
+		break;
+	};
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -6,7 +23,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>World Famous Thin Crust Square at Emma's Brick Oven Pizza</title>
+        <title><?php echo $page_title; ?></title>
         <meta name="description" content="Thin Crust Square - The perfect pairing of high quality ingredients, an authentic brick oven and the skill of a master pizza chef.">
 
         <!-- Facebook Open Graph Info -->
@@ -39,13 +56,8 @@
     		</div>
 	        <div id="content">
 		        <?php
-		        	$page = $_GET['page'];
 					switch($page){
 						case '':
-							include('page/home.php');
-						break;
-						
-						case 'home':
 							include('page/home.php');
 						break;
 
